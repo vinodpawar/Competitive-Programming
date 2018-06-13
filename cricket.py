@@ -80,7 +80,7 @@ else:
 #printing score of all players who have been on the ground
 i = 1
 while lastPlayer > i:
-	print "P%s" % (i), ":", playerScore[i]
+	print ("P", i , ":", playerScore[i])
 	i += 1
 
-print "Extras:",extras
+print ("Extras:",extras)
