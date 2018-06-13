@@ -1,9 +1,9 @@
 #input score provided
 inputScore = [1,".",2,"w","W",6,".",2,"b",3,4]
+
+#challenge input:
 #inputScore = ["W","W","W","W","W","W","W","W","W","W"]
 #inputScore = [1,".",".",2,4,".","w",6]
-
-
 
 #player score initialization
 playerScore = {1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0,11:0}
@@ -39,15 +39,14 @@ for i in range(len(inputScore)):
 
 	#wicket
 	elif inputScore[i] == "W":
-
 		if playerOnNonStrike > playerOnStrike:
 			playerOnStrike = playerOnNonStrike + 1
-			if playerOnStrike == 12:
+			if playerOnStrike == 11:
 				break
 
 		else:
 			playerOnStrike = playerOnStrike + 1
-			if playerOnStrike == 12:
+			if playerOnStrike == 11:
 				break
 
 
