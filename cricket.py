@@ -1,14 +1,14 @@
-#input score provided
+#input score given
 inputScore = [1,".",2,"w","W",6,".",2,"b",3,4]
 
 #challenge input:
 #inputScore = ["W","W","W","W","W","W","W","W","W","W"]
 #inputScore = [1,".",".",2,4,".","w",6]
 
-#player score initialization
+#initial player score
 playerScore = {1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0, 9:0, 10:0,11:0}
 
-#Players, Players on strike, Players on non-strike, Ball count, Score, extras and overs initialization
+#Values set for Players, Players on strike, Players on non-strike, Ball count, Score, extras and overs
 players = [1,2,3,4,5,6,7,8,9,10,11]
 playerOnStrike = players[0]
 playerOnNonStrike = players[0+1]
