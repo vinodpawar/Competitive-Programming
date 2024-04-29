@@ -1,5 +1,5 @@
-#A simple cryptography program that replaces the current letter with the fourth letter next to it.
-#Programmed in Python 2.7
+#A simple cryptography program that replaces the First letter with the Fourth letter next to it.
+#Program written in Python 2.7
 alphabates = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 inputName = "abdcz"
 count = 0
