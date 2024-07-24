@@ -5,27 +5,28 @@ public class AscendingOrder {
 	public static void main(String[] args) {
 		// Sort the elements of an array in ascending order
 
-		int arr1[] = { 101, 100, 1, 20000, 300, 300, 4, 5 };
-		int temp;
+		int arr[] = { 101, 100, 1, 2000, 300, 300, 4, 5 };
 		
-//		System.out.println(arr1[arr1.length-2]);
 
-		for (int i = 0; i < arr1.length-1; i++) {
+		for (int i = 0; i < arr.length - 1; i++) {
 
-			for (int j = 1; j < arr1.length; j++) {
+			for (int j = i + 1; j < arr.length; j++) {
 
-				if (arr1[i] > arr1[j]) {
+				if (arr[i] > arr[j]) {
 
-					temp = arr1[j];
-					arr1[j] = arr1[i];
-					arr1[i] = temp;
+					int temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+
 				}
+
 			}
 		}
 
-		for (int i = 0; i < arr1.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 
-			System.out.print(arr1[i] + ", ");
+			System.out.println(arr[i]);
+
 		}
 
 	}
