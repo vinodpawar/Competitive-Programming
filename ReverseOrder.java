@@ -1,5 +1,3 @@
-package org.ProgramPractice;
-
 public class ReverseOrder {
 
 	public static void main(String[] args) {
