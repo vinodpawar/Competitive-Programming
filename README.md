@@ -12,3 +12,4 @@ Links of problem set:
 * Print the sum of all the items of the array
 * Sort the elements of an array in ascending order
 * Print odd and even numbers from an array
+* Remove all the white spaces in a string
