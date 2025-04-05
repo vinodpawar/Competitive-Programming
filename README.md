@@ -79,4 +79,4 @@ After successful compilation, run the Java program with:
 
 ## License
 
-This repository is licensed under the MIT License - [see the LICENSE]() file for details.
+This repository is licensed under the MIT License - [see the LICENSE](https://github.com/vinodpawar/Competitive-Programming/blob/master/LICENSE) file for details.
