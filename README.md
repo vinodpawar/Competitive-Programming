@@ -26,7 +26,7 @@ Below are problems I've solved, with links:
 
 To run the solutions locally:
 
-1. Clone the repository:
+Clone the repository
    ```bash
    git clone https://github.com/vinodpawar/Competitive-Programming.git
    ```
@@ -38,17 +38,45 @@ If Java is not installed, download and install the Java Development Kit (JDK) fr
    ```bash
    java -version
    ```
-## Compile the Java code
+
+### Compile the Java code
 
 Open the Command Prompt (cmd) and navigate to the directory containing the Java file, then compile the Java program:
    ```bash
    javac <solution>.java
    ```
-## Run the Java program
+
+### Run the Java program
 After compilation, execute the program using the following command:
    ```bash
    java <solution>
    ```
+
+## To execute a Java program on Linux:
+Ensure Java is Installed
+Check if Java is already installed by running
+   ```bash
+   java -version
+   ```
+
+If it’s not installed, you can install the Java Development Kit (JDK) using your package manager. For example, on Ubuntu or Debian-based systems:
+   ```bash
+   sudo apt update
+   sudo apt install default-jdk
+   ```
+
+### Compile the Java Code
+Open the terminal, navigate to the directory containing the Java file, and compile the program:
+   ```bash
+   javac <solution>.java
+   ```
+
+### Run the Java Program
+After successful compilation, run the Java program with:
+   ```bash
+   java <solution>
+   ```
+
 ## License
 
 This repository is licensed under the MIT License - [see the LICENSE]() file for details.
